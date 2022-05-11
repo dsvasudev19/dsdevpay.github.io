@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    background-image: url();
+    backdrop-filter: blur(8px);
+}
+.header{
+    width: 100%;
+    height: 12vh;
+    border-bottom: 3px solid rgb(44, 170, 243);
+    background-color: rgb(44, 170, 243);
+    color: white;
+    display: flex;
+
+
+}
+.definition{
+    display: flex;
+    width: 100%;
+    height: 78vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+
+}
+.footer{
+    width: 100%;
+    height: 10vh;
+    border-top: 3px solid black;
+    background-color: black;
+    color: white;
+
+}
+.logo{
+    width: 40vh;
+    height: 100%;
+    /* border-right: 3px solid black; */
+    display: flex;
+
+}
+.navbar{
+    float: right;
+    display: block;
+
+}
+.navbar ul{
+    display: flex;
+
+}
+#dsdevimage{
+    margin-bottom: 30px;
+    border: 4px solid black;
+}
+.navbar li{
+    font-size: 25px;
+    width: 300px;
+    margin-left: 25px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.navbar li:hover{
+    color: black;
+}
+.form{
+    width: 50%;
+    height: 70%;
+    border: 3px solid rgb(230, 178, 178);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* display: flex; */
+}
+
+label{
+    /* margin: auto; */
+   
+    float: left;
+    width: 120px;
+    margin-top: 10px;
+    height: 40px;
+    border: 3px solid rgb(18, 125, 219);
+    font-size: 25px;
+    color: rgb(25, 10, 243);
+    display: flex;
+    
+    
+    
+   
+    
+
+}
+a{
+    text-decoration: none;
+    
+}
+input{
+    /* position: relative; */
+    float: center;
+    justify-content: center;
+    align-items: center;
+    
+    /* width: 300px; */
+    /* margin-top: 20px; */
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    
+    border: 3px solid rgb(18, 125, 219);
+}
+
+#aboutproject{
+    font-size: xx-large;
+}
+#sparks{
+    color: orangered;
+}
+#payment,#about{
+    width: 300px;
+    height: 55px;
+    font-size: 20px;
+    border: 3px outset black;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(34, 148, 224);
+    color: white;
+}
+#payment:hover,#about:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+#paybutton{
+    width: 500px;
+    height: 45px;
+    border: 3px solid rgb(10, 91, 222);
+    margin-top: 30px;
+    background-color: rgb(255, 216, 205);
+    color: black;
+    font-size: 30px;
+}
+#paybutton:hover{
+    background-color: white;
+    color: rgb(35, 3, 247);
+    font-size: 30px;
+
+}
+form #label{
+    size: 300px;
+    float: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 30px;
+    width: 100px;
+    height: 30px;
+    border: 3px solid rgb(66, 46, 46);
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.cp{
+    display: flex;
+    float: center;
+    margin-left: 680px;
+}
+.about{
+    width: 80%;
+    height: 55%;
+    float: center;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(105, 99, 99);
+    border-radius: 5px;
+    display: flex;
+
+}
+#connect{
+    width: 40px;
+    height: 40px;
+}
+.text{
+    width: 78%;
+    height: 95%;
+    display: inline;
+    border: 3px solid #eadbc8;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.photo{
+    width: 18%;
+    height: 95%;
+    display: inline;
+    border: 3px solid #eadbc8;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    background-position: center;
+    overflow: auto;
+
+}
+#cpp{
+    margin-left: 520px;
+}
